@@ -6,6 +6,10 @@ Source code of the proceeding "Dimension reduction techniques applied to Chandra
 
 Clone the repository: git clone https://github.com/mbbadaracco/Dimension-reduction-techniques-applied-to-Chandra-X-ray-data
 
+Go to the folder and create environment: virtualenv XRB_RedTech
+
+Activate environment: source XRB_RedTech/bin/activate
+
 Install dependencies: pip install -r requirements.txt
 
 ### Run the code! 
