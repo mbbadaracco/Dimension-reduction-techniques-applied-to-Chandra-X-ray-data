@@ -12,6 +12,8 @@ Activate environment: source XRB_RedTech/bin/activate
 
 Install dependencies: pip install -r requirements.txt
 
+Execute: python -m ipykernel install --user --name=XRB_RedTech --display-name "Python (XRB_RedTech)"
+
 ### Run the code! 
 Note that you can change some of the parameters on the first cell of Section "1. Constants & functions" to pursue straightforwardly your own exploration. 
 
