@@ -6,13 +6,15 @@ Source code of the proceeding "Dimension reduction techniques applied to Chandra
 
 Clone the repository: git clone https://github.com/mbbadaracco/Dimension-reduction-techniques-applied-to-Chandra-X-ray-data
 
-Go to the folder and create environment: virtualenv XRB_RedTech
+Go to the folder and create environment: conda create -n XRB_RedTech python=3.13.5
 
-Activate environment: source XRB_RedTech/bin/activate
+Restart terminal: source ~/.bashrc
 
-Install dependencies: pip install -r requirements.txt
+Activate environment: conda activate XRB_RedTech
 
 Execute: python -m ipykernel install --user --name=XRB_RedTech --display-name "Python (XRB_RedTech)"
+
+Install dependencies: pip install -r requirements.txt
 
 ### Run the code! 
 Note that you can change some of the parameters on the first cell of Section "1. Constants & functions" to pursue straightforwardly your own exploration. 
